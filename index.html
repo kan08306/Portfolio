@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ken Bautista</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+<body class="dark-mode">
+
+    <header class="header">
+        <input type="checkbox" id="menu-toggle" class="menu-toggle">
+
+        <label for="menu-toggle" class="menu-logo-pill">
+            <img src="./assets/img/KBlogo.png" alt="Ken Logo" class="menu-logo-img">
+            <span class="menu-name">Ken</span>
+        </label>
+
+        <nav class="menu-panel">
+            <a href="#">Home</a>
+            <a href="#about">About</a>
+            <a href="#contact">Contact</a>
+
+            <button class="theme-option" id="theme-toggle" type="button">
+                <img id="theme-icon" src="https://unpkg.com/lucide-static@latest/icons/sun.svg" alt="Theme Icon">
+                <span id="theme-text">Light</span>
+            </button>
+        </nav>
+    </header>
+
+    <main class="main-content">
+        <div class="content-wrap">
+
+            <section class="profile-hero">
+                <div class="profile-photo-box">
+                    <img src="./assets/img/kenpfp.png" alt="Profile" class="profile-photo">
+                </div>
+
+                <div class="profile-info">
+                    <h1 class="profile-name">Ken Bautista</h1>
+
+                    <div class="profile-location">
+                        <img src="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/icons/geo-alt.svg" alt="Location Icon" class="profile-location-icon">
+                        <span>Metro Manila, Philippines</span>
+                    </div>
+
+                    <p class="profile-role">2nd Year College Student at FEU Tech</p>
+
+                    <div class="profile-actions">
+                        <a href="#projects" class="profile-btn primary-btn">Projects</a>
+                        <a href="#contact" class="profile-btn">Contacts</a>
+                        <a href="#about" class="profile-btn">About</a>
+                    </div>
+                </div>
+
+                <div class="profile-side">
+                    <span class="profile-badge">
+                        <span class="glow-dot"></span>
+                        Cybersecurity Student
+                    </span>
+                </div>
+            </section>
+
+            <section class="dashboard-layout">
+                <div class="left-column">
+
+                    <section class="card" id="about">
+                        <div class="card-title">
+                            <img src="https://unpkg.com/lucide-static@latest/icons/info.svg" alt="About Icon" class="card-icon-img">
+                            <h2>About</h2>
+                        </div>
+
+                        <p class="about-text">
+                            I'm a second year student at the FEU Institute of Technology, pursuing Bachelor of Science in Information Technology specializing in Cybersecurity.<br><br>
+                            Driven to expand my knowledge in cybersecurity by strengthening both theoretical understanding and practical skills across networking, system security, and threat analysis. Committed to continuous learning through hands on practice and real world exposure to build deeper expertise and achieve long term career growth in cybersecurity.<br><br>
+                            Have one goal in mind and that is to protect the digital world.
+                        </p>
+                    </section>
+
+                    <section class="card">
+                        <div class="card-title">
+                            <img src="https://unpkg.com/lucide-static@latest/icons/book-open.svg" alt="Hobbies Icon" class="card-icon-img">
+                            <h2>Hobbies</h2>
+                        </div>
+
+                        <p class="hobbies-text">
+                            During my free time, I enjoy walking, reading books, watching movies or TV series, and playing online games such as Valorant, League of Legends, and console games. These activities help me relax, stay inspired, and maintain a healthy balance between productivity and enjoyment.
+                        </p>
+
+                        <p class="quote-text">"You cannot lose what you do not have. — Marcus Aurelius"</p>
+                    </section>
+
+                    <section class="skills-card card">
+                        <div class="card-title">
+                            <img src="https://unpkg.com/lucide-static@latest/icons/code-2.svg" alt="Skills Icon" class="card-icon-img">
+                            <h2>Skills</h2>
+                        </div>
+
+                        <h3 class="skill-label">Frontend</h3>
+                        <div class="skill-list">
+                            <div class="skill-item" data-skill="HTML"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" alt="HTML"></div>
+                            <div class="skill-item" data-skill="CSS"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" alt="CSS"></div>
+                            <div class="skill-item" data-skill="JavaScript"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" alt="JavaScript"></div>
+                        </div>
+
+                        <h3 class="skill-label">Backend</h3>
+                        <div class="skill-list">
+                            <div class="skill-item" data-skill="MySQL"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" alt="MySQL"></div>
+                            <div class="skill-item" data-skill="Python"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" alt="Python"></div>
+                            <div class="skill-item" data-skill="Java"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" alt="Java"></div>
+                            <div class="skill-item" data-skill="C++"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg" alt="C++"></div>
+                            <div class="skill-item" data-skill="PHP"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-original.svg" alt="PHP"></div>
+                        </div>
+
+                        <h3 class="skill-label">Tools</h3>
+                        <div class="skill-list">
+                            <div class="skill-item" data-skill="VS Code"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg" alt="VS Code"></div>
+                            <div class="skill-item" data-skill="Figma"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg" alt="Figma"></div>
+                            <div class="skill-item" data-skill="GitHub"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" alt="GitHub"></div>
+                            <div class="skill-item" data-skill="Git"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" alt="Git"></div>
+                        </div>
+
+                        <h3 class="skill-label">AI Tools</h3>
+                        <div class="skill-list">
+                            <div class="skill-item" data-skill="OpenAI"><img src="https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/openai.svg" alt="OpenAI"></div>
+                            <div class="skill-item" data-skill="ClaudeAI"><img src="https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/anthropic.svg" alt="ClaudeAI"></div>
+                        </div>
+
+                        <h3 class="skill-label">Non-code Skills</h3>
+                        <div class="skill-list">
+                            <div class="skill-item" data-skill="Photoshop"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/photoshop/photoshop-plain.svg" alt="Photoshop"></div>
+                            <div class="skill-item" data-skill="Microsoft Office"><img src="https://upload.wikimedia.org/wikipedia/commons/4/44/Microsoft_logo.svg" alt="Microsoft Office"></div>
+                            <div class="skill-item" data-skill="Canva"><img src="https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/canva.svg" alt="Canva"></div>
+                        </div>
+                    </section>
+                </div>
+
+                <div class="right-column">
+
+                    <section class="card">
+                        <div class="card-title">
+                            <img src="https://unpkg.com/lucide-static@latest/icons/graduation-cap.svg" alt="Education Icon" class="card-icon-img">
+                            <h2>Education</h2>
+                        </div>
+
+                        <div class="education-timeline">
+                            <div class="timeline-item">
+                                <div class="timeline-left"><span class="timeline-dot active"></span></div>
+                                <div class="timeline-content">
+                                    <h3>BS IT Cybersecurity</h3>
+                                    <p>FEU Institute of Technology</p>
+                                </div>
+                                <span class="year-pill">2026</span>
+                            </div>
+
+                            <div class="timeline-item">
+                                <div class="timeline-left"><span class="timeline-dot"></span></div>
+                                <div class="timeline-content">
+                                    <h3>Senior High School</h3>
+                                    <p>Manila Cathedral School</p>
+                                </div>
+                                <span class="year-pill">2024</span>
+                            </div>
+
+                            <div class="timeline-item">
+                                <div class="timeline-left"><span class="timeline-dot"></span></div>
+                                <div class="timeline-content">
+                                    <h3>Junior High School</h3>
+                                    <p>Manila Cathedral School</p>
+                                </div>
+                                <span class="year-pill">2018</span>
+                            </div>
+                        </div>
+                    </section>
+
+                    <section class="certifications-card card">
+                        <div class="card-title">
+                            <img src="https://unpkg.com/lucide-static@latest/icons/award.svg" alt="Certifications Icon" class="card-icon-img">
+                            <h2>Certifications</h2>
+                        </div>
+
+                        <div class="cert-list">
+                            <a href="https://www.credly.com/badges/031ee0e1-2c53-4c0a-b64f-1e32b8833220/public_url" target="_blank" class="cert-item">
+                                <div><h3>Junior Cybersecurity Analyst</h3><p>FEU Institute of Technology / CISCO</p></div>
+                                <span class="year-pill">2026</span>
+                            </a>
+
+                            <a href="https://www.credly.com/badges/d135731a-7f88-4b5c-aff2-af6356dc2608/public_url" target="_blank" class="cert-item">
+                                <div><h3>Network Defense</h3><p>FEU Institute of Technology / CISCO</p></div>
+                                <span class="year-pill">2026</span>
+                            </a>
+
+                            <a href="https://www.credly.com/badges/3e5de21c-f111-4b98-9351-81a153d96153/public_url" target="_blank" class="cert-item">
+                                <div><h3>Introduction to Networks</h3><p>FEU Institute of Technology / CISCO</p></div>
+                                <span class="year-pill">2026</span>
+                            </a>
+
+                            <a href="https://www.credly.com/badges/21ccd6b2-e0bd-42dd-a913-b9aaa2ac5bfc/public_url" target="_blank" class="cert-item">
+                                <div><h3>Introduction to Cybersecurity</h3><p>FEU Institute of Technology / CISCO</p></div>
+                                <span class="year-pill">2026</span>
+                            </a>
+
+                            <a href="https://www.credly.com/badges/e50b8949-e589-4a6d-85b7-8a00d342544e/public_url" target="_blank" class="cert-item">
+                                <div><h3>Databases</h3><p>FEU Institute of Technology / Certiport</p></div>
+                                <span class="year-pill">2025</span>
+                            </a>
+
+                            <a href="https://www.credly.com/badges/f335ae99-48a0-4c07-b3c5-321e62ea5bda/public_url" target="_blank" class="cert-item">
+                                <div><h3>HTML & CSS</h3><p>FEU Institute of Technology / Certiport</p></div>
+                                <span class="year-pill">2025</span>
+                            </a>
+
+                            <a href="https://www.credly.com/badges/33fd9065-8330-4ac8-8f5b-62002c69a9f3/public_url" target="_blank" class="cert-item">
+                                <div><h3>Python Essentials 1</h3><p>Certiport</p></div>
+                                <span class="year-pill">2024</span>
+                            </a>
+                        </div>
+                    </section>
+
+                    <section class="projects-card card" id="projects">
+                        <div class="card-title">
+                            <img src="https://unpkg.com/lucide-static@latest/icons/folder.svg" alt="Projects Icon" class="card-icon-img">
+                            <h2>Projects</h2>
+                        </div>
+
+                        <div class="project-list">
+                            <a href="https://chair-mute-24091396.figma.site/" target="_blank" class="project-item">
+                                <div class="project-info"><h3>Penta Dogz AI</h3><span>AI Fact Checker</span></div>
+                                <span class="project-pill">pd.ai</span>
+                            </a>
+
+                            <a href="https://kan08306.github.io/WD-Finals-Portfolio/" target="_blank" class="project-item">
+                                <div class="project-info"><h3>Portfolio</h3><span>Final Portfolio</span></div>
+                                <span class="project-pill">ken.com</span>
+                            </a>
+
+                            <a href="https://kan08306.github.io/WD-Seatwork-2/" target="_blank" class="project-item">
+                                <div class="project-info"><h3>Hero Sections</h3><span>UI Sections</span></div>
+                                <span class="project-pill">hs.com</span>
+                            </a>
+
+                            <a href="https://kan08306.github.io/WD-Seatwork-1/" target="_blank" class="project-item">
+                                <div class="project-info"><h3>Header & Footer</h3><span>Layout Components</span></div>
+                                <span class="project-pill">hf.com</span>
+                            </a>
+                        </div>
+                    </section>
+                </div>
+            </section>
+
+            <section class="contact-card card" id="contact">
+                <div class="card-title">
+                    <img src="https://unpkg.com/lucide-static@latest/icons/mail.svg" alt="Contact Icon" class="card-icon-img">
+                    <h2>Contact</h2>
+                </div>
+
+                <div class="contact-grid">
+                    <div class="contact-group">
+                        <h3>Email</h3>
+                        <a href="mailto:kenbautista753@gmail.com" class="contact-box">kenbautista753@gmail.com</a>
+                    </div>
+
+                    <div class="contact-group">
+                        <h3>Student Email</h3>
+                        <a href="mailto:kabautista1@fit.edu.ph" class="contact-box">kabautista1@fit.edu.ph</a>
+                    </div>
+
+                    <div class="contact-group">
+                        <h3>Location</h3>
+                        <div class="contact-box">Metro Manila, Philippines</div>
+                    </div>
+
+                    <div class="contact-group">
+                        <h3>Socials</h3>
+                        <div class="social-list">
+                            <a href="https://github.com/kan08306" target="_blank" class="social-box">
+                                <img src="https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/github.svg" alt="GitHub">
+                            </a>
+                            <a href="https://www.linkedin.com/in/ken-bautista-319b12374/" target="_blank" class="social-box">
+                                <img src="https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/linkedin.svg" alt="LinkedIn">
+                            </a>
+                            <a href="https://www.instagram.com/neeki3_/" target="_blank" class="social-box">
+                                <img src="https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/instagram.svg" alt="Instagram">
+                            </a>
+                            <a href="https://www.facebook.com/ken08306" target="_blank" class="social-box">
+                                <img src="https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/facebook.svg" alt="Facebook">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+        </div>
+    </main>
+
+    <footer class="footer">
+        <div class="footer-inner">
+            <div class="footer-left">
+                <a href="#contact">Contact</a>
+                <a href="#">Home</a>
+                <a href="#about">About</a>
+            </div>
+
+            <div class="footer-center">
+                <img src="./assets/img/KBlogo.png" alt="Logo">
+            </div>
+
+            <div class="footer-right">
+                <span>&copy; 2026 Ken Bautista. All rights reserved.</span>
+            </div>
+        </div>
+    </footer>
+
+    <script src="./assets/js/script.js"></script>
+</body>
+</html>

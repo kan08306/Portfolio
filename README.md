@@ -102,4 +102,4 @@ Portfolio Resume
 <!-- TODO: Add References -->
 | Title | Purpose | Link |
 |-|-|-|
-| Portfolio Resume| Personal Portfolio |  |
+| Portfolio Resume| Personal Portfolio | http://kan08306.github.io/Portfolio/ |
